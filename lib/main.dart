@@ -21,6 +21,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   List dataList = [];
+  String imagePath = 'assets/images/';
+  String imageNo = 'imgContent2.png';
 
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/guidance.json');
@@ -39,13 +41,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Ubamm',
-          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
-        ),
-        backgroundColor: Colors.greenAccent.shade100,
-      ),
+      backgroundColor: Colors.black,
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -54,32 +50,32 @@ class _MyAppState extends State<MyApp> {
                   child: ListView.builder(
                     itemBuilder: (context, index) {
                       return Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          dataList[index]['data'] == 'imgContent2'
+                          dataList[index]['type'] == 'image'
                               ? Padding(
                                   padding: const EdgeInsets.only(right: 20.0, left: 20.0, bottom: 10, top: 10),
-                                  child: Image.asset("assets/images/images.jpeg"),
+                                  child: SizedBox(width: double.infinity, child: Image.asset("$imagePath$imageNo")),
                                 )
-                              : dataList[index]['data'] == 'imgContent3'
-                                  ? Padding(
-                                      padding: const EdgeInsets.only(right: 20.0, left: 20.0, bottom: 10, top: 10),
-                                      child: Image.asset("assets/images/flutter-3.png"),
-                                    )
-                                  : Padding(
-                                      padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
-                                      child: Text(
-                                        dataList[index]['data'],
-                                        style: TextStyle(
-                                          color: dataList[index]['type'] == 'title' ? Colors.blue : null,
-                                          fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
-                                          fontSize: dataList[index]['type'] == 'title'
+                              : Padding(
+                                  padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
+                                  child: Text(
+                                    dataList[index]['data'],
+                                    style: TextStyle(
+                                      color: dataList[index]['type'] == 'title'
+                                          ? Colors.cyanAccent
+                                          : dataList[index]['type'] == 'paragraph'
+                                              ? Colors.white
+                                              : null,
+                                      fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
+                                      fontSize: dataList[index]['type'] == 'title'
+                                          ? 19
+                                          : dataList[index]['type'] == 'paragraph'
                                               ? 19
-                                              : dataList[index]['type'] == 'paragraph'
-                                                  ? 19
-                                                  : null,
-                                        ),
-                                      ),
+                                              : null,
                                     ),
+                                  ),
+                                ),
                         ],
                       );
                     },
