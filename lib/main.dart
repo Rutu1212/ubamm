@@ -94,7 +94,7 @@ class _MyAppState extends State<MyApp> {
     );
   }
 
-  void _launchUrl(String URL) async {
-    if (!await launchUrl(Uri.parse(URL))) throw 'Could not launch $URL';
+  void _launchUrl(String url) async {
+    if (!await launchUrl(Uri.parse(url))) throw 'Could not launch $url';
   }
 }
