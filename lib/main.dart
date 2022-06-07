@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ubamm/webpage.dart';
 
 void main() {
   runApp(
@@ -59,23 +60,50 @@ class _MyAppState extends State<MyApp> {
                                 )
                               : Padding(
                                   padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
-                                  child: Text(
-                                    dataList[index]['data'],
-                                    style: TextStyle(
-                                      color: dataList[index]['type'] == 'title'
-                                          ? Colors.cyanAccent
-                                          : dataList[index]['type'] == 'paragraph'
-                                              ? Colors.white
-                                              : null,
-                                      fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
-                                      fontSize: dataList[index]['type'] == 'title'
-                                          ? 19
-                                          : dataList[index]['type'] == 'paragraph'
-                                              ? 19
-                                              : null,
+                                  child: GestureDetector(
+                                    onTap: () {
+                                      dataList[index]['type'] == 'link'
+                                          ? Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                builder: (context) => const WebPage(),
+                                              ),
+                                            )
+                                          : null;
+                                    },
+                                    child: Text(
+                                      dataList[index]['data'],
+                                      style: TextStyle(
+                                        color: dataList[index]['type'] == 'title'
+                                            ? Colors.cyanAccent
+                                            : dataList[index]['type'] == 'paragraph'
+                                                ? Colors.white
+                                                : dataList[index]['type'] == 'link'
+                                                    ? Colors.blue
+                                                    : null,
+                                        fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
+                                        fontSize: dataList[index]['type'] == 'title'
+                                            ? 19
+                                            : dataList[index]['type'] == 'paragraph'
+                                                ? 19
+                                                : dataList[index]['type'] == 'link'
+                                                    ? 19
+                                                    : null,
+                                      ),
                                     ),
                                   ),
                                 ),
+                          /*GestureDetector(
+                            onTap: () {
+                              dataList[index]['type'] == 'link'
+                                  ? Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => const WebPage(),
+                                      ))
+                                  : null;
+                            },
+                          )*/
                         ],
                       );
                     },
