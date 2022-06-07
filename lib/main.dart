@@ -22,8 +22,6 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   List dataList = [];
-  String imagePath = 'assets/images/';
-  String imageNo = 'imgContent2.png';
 
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/guidance.json');
@@ -41,55 +39,57 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          dataList.isNotEmpty
-              ? Expanded(
-                  child: ListView.builder(
-                    itemBuilder: (context, index) {
-                      return Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          dataList[index]['type'] == 'image'
-                              ? Padding(
-                                  padding: const EdgeInsets.only(right: 20.0, left: 20.0, bottom: 10, top: 10),
-                                  child: SizedBox(width: double.infinity, child: Image.asset("$imagePath$imageNo")),
-                                )
-                              : Padding(
-                                  padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
-                                  child: GestureDetector(
-                                    onTap: () {
-                                      dataList[index]['type'] == 'link' ? _launchUrl(dataList[index]['data']) : null;
-                                    },
-                                    child: Text(
-                                      dataList[index]['data'],
-                                      style: TextStyle(
-                                        color: dataList[index]['type'] == 'title'
-                                            ? Colors.cyanAccent
-                                            : dataList[index]['type'] == 'paragraph'
-                                                ? Colors.white
-                                                : dataList[index]['type'] == 'link'
-                                                    ? Colors.blue
-                                                    : null,
-                                        fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
-                                        fontSize: 19,
+    return SafeArea(
+      child: Scaffold(
+        backgroundColor: Colors.black,
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            dataList.isNotEmpty
+                ? Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            dataList[index]['type'] == 'image'
+                                ? Padding(
+                                    padding: const EdgeInsets.only(right: 20.0, left: 20.0, bottom: 10, top: 10),
+                                    child: SizedBox(width: double.infinity, child: Image.asset("assets/images/${dataList[index]['data']}")),
+                                  )
+                                : Padding(
+                                    padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
+                                    child: GestureDetector(
+                                      onTap: () {
+                                        dataList[index]['type'] == 'link' ? _launchUrl(dataList[index]['data']) : null;
+                                      },
+                                      child: Text(
+                                        dataList[index]['data'],
+                                        style: TextStyle(
+                                          color: dataList[index]['type'] == 'title'
+                                              ? Colors.cyanAccent
+                                              : dataList[index]['type'] == 'paragraph'
+                                                  ? Colors.white
+                                                  : dataList[index]['type'] == 'link'
+                                                      ? Colors.blue
+                                                      : null,
+                                          fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
+                                          fontSize: 19,
+                                        ),
                                       ),
                                     ),
                                   ),
-                                ),
-                        ],
-                      );
-                    },
-                    itemCount: dataList.length,
+                          ],
+                        );
+                      },
+                      itemCount: dataList.length,
+                    ),
+                  )
+                : const Center(
+                    child: Text('No Data'),
                   ),
-                )
-              : const Center(
-                  child: Text('No Data'),
-                ),
-        ],
+          ],
+        ),
       ),
     );
   }

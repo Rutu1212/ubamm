@@ -1,191 +1,194 @@
 [
-    {
-        "type": "title",
-        "data": "1. Let’s talk about Ubamm Wellness!"
-    },
-    {
-        "type": "paragraph",
-        "data": "Ubamm Wellness is a knowledge platform for you to achieve your wellness. It combines scientific knowledge and technology to promote health and longevity. Practically anyone ages 4 and up can benefit from Ubamm Wellness at a family dinner or while having a meal alone. Text-to-speech engine along with Ubamm knowledge sharing platform will make family dinners more interesting and enjoyable."
-    },
-    {
-        "type": "image",
-        "data": "imgContent2"
-    },
-    {
-        "type": "title",
-        "data": "2. What is Wellness and how to be well? "
-    },
-    {
-        "type": "link",
-        "data": "https://www.youtube.com/watch?v=Hqs1WzTwBEU&feature=youtu.be"
-    },
-    {
-        "type": "link",
-        "data": "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
-    },
-    {
-        "type": "link",
-        "data": "https://flutter.dev/"
-    },
-    {
-        "type": "paragraph",
-        "data": "Wellness is more than being free from illness. Wellness is a way of living by being aware of making right choices toward a healthy and fulfilling life."
-    },
-    {
-        "type": "title",
-        "data": "3. How can Ubamm Wellness help me?"
-    },
-    {
-        "type": "paragraph",
-        "data": "It helps you to make correct choices toward a healthy and fulfilling life through education and application of simple life principles, such as chewing your bites 40 times.  A healthy lifestyle slows down the degradation of the biologic mechanisms of Autophagy (a self-healing process described below), which is recognized by a Nobel Prize in Physiology/Medicine. "
-    },
-    {
-        "type": "image",
-        "data": "imgContent3"
-    },
-    {
-        "type": "title",
-        "data": "4. Then, what is Autophagy? "
-    },
-    {
-        "type": "paragraph",
-        "data": "Autophagy (s self-healing process) can be thought of as a self cleaning, repairing and remodeling function of the body to promote longevity and a healthy life. Basal Autophagy declines with age rapidly, unless intervened by a healthy lifestyle such as eating right way and exercising. "
-    },
-    {
-        "type": "title",
-        "data": "5. When was Autophagy research recognized with the Nobel Prize?"
-    },
-    {
-        "type": "paragraph",
-        "data": "Autophagy has been known about for over 50 years, but its fundamental importance in physiology and medicine was only recognized after a Japanese scientist Yoshinori Ohsumi’s paradigm-shifting research in the 1990’s. For his discoveries, Dr. Ohsumi is awarded Nobel Prize in Physiology/Medicine in 2016."
-    },
-    {
-        "type": "title",
-        "data": "6. How does Autophagy work? "
-    },
-    {
-        "type": "paragraph",
-        "data": "Autophagy controls important physiological functions where cellular components need to be degraded and recycled. Autophagy can rapidly provide fuel for energy and building blocks for renewal of cellular components and is therefore essential for the cellular response to starvation and other types of stress. Autophagy contributes to embryo development and cell differentiation. Cells also use Autophagy to eliminate damaged proteins and organelles, a quality control mechanism that is critical for counteracting the negative consequences of aging."
-    },
-    {
-        "type": "title",
-        "data": "7. How does Autophagy and our immune system are related?"
-    },
-    {
-        "type": "paragraph",
-        "data": "The higher the Autophagy level the stronger the immune system is. For example, after infection, Autophagy can eliminate invading intracellular bacteria and viruses. Generally speaking, younger people have higher Autophagy levels than elderly people. "
-    },
-    {
-        "type": "title",
-        "data": "8. How does Autophagy get activated? "
-    },
-    {
-        "type": "paragraph",
-        "data": "Initiation of Autophagy requires activation of a number of proteins. Its activation depends on three key factors. First, in order to generate the necessary proteins, you need to consumeless calories than what your body needs. Second, the lower the insulin (sugar) level in your blood, the higher the Autophagy activity. Third, exercising (for example, even fast walking) will cause nutrient depletion as well as improve insulin sensitivity in your body. All these together will provide a stress signal to initiate Autophagy. Please note, when you consume sugar, Autophagy can’t start. Your body must burns the sugar first, therefore please reduce sweets in your diet."
-    },
-    {
-        "type": "title",
-        "data": "9. What does Autophagy exactly do?"
-    },
-    {
-        "type": "paragraph",
-        "data": "Autophagy does cell cleaning, disposal, recycling, repair and remodeling. For example, it can protect brain cells against accumulation of bad proteins that cause neurodegeneration. It boosts your immune defense system as well as does cancer surveillance. While doing all these, it generates essential energy for your body and brain as well."
-    },
-    {
-        "type": "title",
-        "data": "10. How does Ubamm Wellness work?"
-    },
-    {
-        "type": "paragraph",
-        "data": "Ubamm Wellness seamlessly helps you achieve a healthy lifestyle so that your Autophagy doesn’t degrade rapidly by age. It is another way of saying that you maintain your health day-by-day so that you don’t need a troublesome major repair or remodeling in the future. Ubamm Wellness has main three parts."
-    },
-    {
-        "type": "paragraph",
-        "data": "1. The step count module in the settings page pulls the information from your mobile phone and displays it to make you conscious about exercising."
-    },
-
-    {
-        "type": "paragraph",
-        "data": "2. The chew count module on the main screen slows you down and makes you conscious about your eating speed. Hence, you consume less calories; however, your body and brain absorbs more energy by chewing more."
-    },
-    {
-        "type": "paragraph",
-        "data": "3. The knowledge sharing module on the main screen displays up-to-date scientific knowledge. The knowledge panel advances automatically after each bite or whenever the user scrolls down from the image manually."
-    },
-    {
-        "type": "title",
-        "data": "11. How to lose weight naturally and be healthy?"
-    },
-    {
-        "type": "paragraph",
-        "data": "Ubamm Wellness provides three key benefits."
-    },
-    {
-        "type": "paragraph",
-        "data": "1. It controls your appetite: when attempting to lose weight, controlling your eating habits is important. Emotional eaters rush to curb their hunger. This is where Ubamm Wellness comes in. It helps to control your eating habits by helping you chew your bites well. Chewing your bites well helps you enjoy your food better and also empowers you to suppresses excessive food cravings. It also helps to correct emotional imbalances that cause you to consume excessive food due to escalating emotional situations. Indeed,chewing well leads to the best natural calorie restriction method, if you listen to your body well."
-    },
-    {
-        "type": "paragraph",
-        "data": "2. It prevents fat formation. The calorie restriction together with exercise, such as walking, will not only prevent body fat formation, but also burns excessive body fat."
-    },
-    {
-        "type": "paragraph",
-        "data": "3. It makes you feel great. Your new eating habits, lifestyle and making conscious choices will make you feel special because not too many people can follow these principles."
-    },
-    {
-        "type": "title",
-        "data": "12. Frequently Asked Questions"
-    },
-    {
-        "type": "paragraph",
-        "data": "Q. Does Autophagy continue to work during sleep?"
-    },
-    {
-        "type": "paragraph",
-        "data": "A. Some answer goes here"
-    },
-    {
-        "type": "paragraph",
-        "data": "Q. Can I live 100 years?"
-    },
-    {
-        "type": "paragraph",
-        "data": "A. Some answer goes here"
-    },
-    {
-        "type": "title",
-        "data": "13. Key References"
-    },
-    {
-        "type": "paragraph",
-        "data": "Takeshige, K., Baba, M., Tsuboi, S., Noda, T. and Ohsumi, Y. (1992). Autophagy in yeast demonstrated with proteinase- deficient mutants and conditions for its induction. Journal of Cell Biology 119, 301-311 "
-    },
-    {
-        "type": "paragraph",
-        "data": "Tsukada, M. and Ohsumi, Y. (1993). Isolation and characterization of autophagy-defective mutants of Saccharomyces cervisiae. FEBS Letters 333, 169-174 Mizushima, N., Noda, T., Yoshimori, T., Tanaka, Y., Ishii, T., George, M.D., Klionsky, D.J., Ohsumi, M. and Ohsumi, Y. (1998). A protein conjugation system essential for autophagy. Nature 395, 395-398"
-    },
-    {
-        "type": "paragraph",
-        "data": "Ichimura, Y., Kirisako T., Takao, T., Satomi, Y., Shimonishi, Y., Ishihara, N., Mizushima, N., Tanida, I., Kominami, E., Ohsumi, M., Noda, T. and Ohsumi, Y. (2000). A ubiquitin-like system mediates protein lipidation. Nature, 408, 488-492"
-    },
-    {
-        "type": "paragraph",
-        "data": "He L., Zhang J., Zhao J., Ma N., Kim S.W., Qiao S., Ma X. Autophagy: The Last Defense against Cellular Nutritional Stress. Adv. Nutr. 2018;9:493–504."
-    },
-    {
-        "type": "title",
-        "data": "14. Testimonials"
-    },
-    {
-        "type": "paragraph",
-        "data": "Prof Dr. John Paterson— This is the best wellness app in the market."
-    },
-    {
-        "type": "paragraph",
-        "data": "Dr. Arthur Adams— So simple to follow. A can’t fail solution to healthy living that will change the way we eat our food for good."
-    },
-    {
-        "type": "paragraph",
-        "data": "Prof. Dr. Murat Bas— Scientific knowledge and technology are utilized to solve obesity and overweight epidemic for good."
-    }
+  {
+    "type": "title",
+    "data": "1. Let’s talk about Ubamm Wellness!"
+  },
+  {
+    "type": "paragraph",
+    "data": "Ubamm Wellness is a knowledge platform for you to achieve your wellness. It combines scientific knowledge and technology to promote health and longevity. Practically anyone ages 4 and up can benefit from Ubamm Wellness at a family dinner or while having a meal alone. Text-to-speech engine along with Ubamm knowledge sharing platform will make family dinners more interesting and enjoyable."
+  },
+  {
+    "type": "title",
+    "data": "2. What is Wellness and how to be well? "
+  },
+  {
+    "type": "link",
+    "data": "https://www.youtube.com/watch?v=Hqs1WzTwBEU&feature=youtu.be"
+  },
+  {
+    "type": "link",
+    "data": "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
+  },
+  {
+    "type": "link",
+    "data": "https://flutter.dev/"
+  },
+  {
+    "type": "paragraph",
+    "data": "Wellness is more than being free from illness. Wellness is a way of living by being aware of making right choices toward a healthy and fulfilling life."
+  },
+  {
+    "type": "image",
+    "data": "imgContent3.jpeg"
+  },
+  {
+    "type": "title",
+    "data": "3. How can Ubamm Wellness help me?"
+  },
+  {
+    "type": "paragraph",
+    "data": "It helps you to make correct choices toward a healthy and fulfilling life through education and application of simple life principles, such as chewing your bites 40 times.  A healthy lifestyle slows down the degradation of the biologic mechanisms of Autophagy (a self-healing process described below), which is recognized by a Nobel Prize in Physiology/Medicine. "
+  },
+  {
+    "type": "image",
+    "data": "imgContent2.png"
+  },
+  {
+    "type": "title",
+    "data": "4. Then, what is Autophagy? "
+  },
+  {
+    "type": "paragraph",
+    "data": "Autophagy (s self-healing process) can be thought of as a self cleaning, repairing and remodeling function of the body to promote longevity and a healthy life. Basal Autophagy declines with age rapidly, unless intervened by a healthy lifestyle such as eating right way and exercising. "
+  },
+  {
+    "type": "title",
+    "data": "5. When was Autophagy research recognized with the Nobel Prize?"
+  },
+  {
+    "type": "paragraph",
+    "data": "Autophagy has been known about for over 50 years, but its fundamental importance in physiology and medicine was only recognized after a Japanese scientist Yoshinori Ohsumi’s paradigm-shifting research in the 1990’s. For his discoveries, Dr. Ohsumi is awarded Nobel Prize in Physiology/Medicine in 2016."
+  },
+  {
+    "type": "title",
+    "data": "6. How does Autophagy work? "
+  },
+  {
+    "type": "paragraph",
+    "data": "Autophagy controls important physiological functions where cellular components need to be degraded and recycled. Autophagy can rapidly provide fuel for energy and building blocks for renewal of cellular components and is therefore essential for the cellular response to starvation and other types of stress. Autophagy contributes to embryo development and cell differentiation. Cells also use Autophagy to eliminate damaged proteins and organelles, a quality control mechanism that is critical for counteracting the negative consequences of aging."
+  },
+  {
+    "type": "title",
+    "data": "7. How does Autophagy and our immune system are related?"
+  },
+  {
+    "type": "image",
+    "data": "imgContent2.png"
+  },
+  {
+    "type": "paragraph",
+    "data": "The higher the Autophagy level the stronger the immune system is. For example, after infection, Autophagy can eliminate invading intracellular bacteria and viruses. Generally speaking, younger people have higher Autophagy levels than elderly people. "
+  },
+  {
+    "type": "title",
+    "data": "8. How does Autophagy get activated? "
+  },
+  {
+    "type": "paragraph",
+    "data": "Initiation of Autophagy requires activation of a number of proteins. Its activation depends on three key factors. First, in order to generate the necessary proteins, you need to consumeless calories than what your body needs. Second, the lower the insulin (sugar) level in your blood, the higher the Autophagy activity. Third, exercising (for example, even fast walking) will cause nutrient depletion as well as improve insulin sensitivity in your body. All these together will provide a stress signal to initiate Autophagy. Please note, when you consume sugar, Autophagy can’t start. Your body must burns the sugar first, therefore please reduce sweets in your diet."
+  },
+  {
+    "type": "title",
+    "data": "9. What does Autophagy exactly do?"
+  },
+  {
+    "type": "paragraph",
+    "data": "Autophagy does cell cleaning, disposal, recycling, repair and remodeling. For example, it can protect brain cells against accumulation of bad proteins that cause neurodegeneration. It boosts your immune defense system as well as does cancer surveillance. While doing all these, it generates essential energy for your body and brain as well."
+  },
+  {
+    "type": "title",
+    "data": "10. How does Ubamm Wellness work?"
+  },
+  {
+    "type": "paragraph",
+    "data": "Ubamm Wellness seamlessly helps you achieve a healthy lifestyle so that your Autophagy doesn’t degrade rapidly by age. It is another way of saying that you maintain your health day-by-day so that you don’t need a troublesome major repair or remodeling in the future. Ubamm Wellness has main three parts."
+  },
+  {
+    "type": "paragraph",
+    "data": "1. The step count module in the settings page pulls the information from your mobile phone and displays it to make you conscious about exercising."
+  },
+  {
+    "type": "paragraph",
+    "data": "2. The chew count module on the main screen slows you down and makes you conscious about your eating speed. Hence, you consume less calories; however, your body and brain absorbs more energy by chewing more."
+  },
+  {
+    "type": "paragraph",
+    "data": "3. The knowledge sharing module on the main screen displays up-to-date scientific knowledge. The knowledge panel advances automatically after each bite or whenever the user scrolls down from the image manually."
+  },
+  {
+    "type": "title",
+    "data": "11. How to lose weight naturally and be healthy?"
+  },
+  {
+    "type": "paragraph",
+    "data": "Ubamm Wellness provides three key benefits."
+  },
+  {
+    "type": "paragraph",
+    "data": "1. It controls your appetite: when attempting to lose weight, controlling your eating habits is important. Emotional eaters rush to curb their hunger. This is where Ubamm Wellness comes in. It helps to control your eating habits by helping you chew your bites well. Chewing your bites well helps you enjoy your food better and also empowers you to suppresses excessive food cravings. It also helps to correct emotional imbalances that cause you to consume excessive food due to escalating emotional situations. Indeed,chewing well leads to the best natural calorie restriction method, if you listen to your body well."
+  },
+  {
+    "type": "paragraph",
+    "data": "2. It prevents fat formation. The calorie restriction together with exercise, such as walking, will not only prevent body fat formation, but also burns excessive body fat."
+  },
+  {
+    "type": "paragraph",
+    "data": "3. It makes you feel great. Your new eating habits, lifestyle and making conscious choices will make you feel special because not too many people can follow these principles."
+  },
+  {
+    "type": "title",
+    "data": "12. Frequently Asked Questions"
+  },
+  {
+    "type": "paragraph",
+    "data": "Q. Does Autophagy continue to work during sleep?"
+  },
+  {
+    "type": "paragraph",
+    "data": "A. Some answer goes here"
+  },
+  {
+    "type": "paragraph",
+    "data": "Q. Can I live 100 years?"
+  },
+  {
+    "type": "paragraph",
+    "data": "A. Some answer goes here"
+  },
+  {
+    "type": "title",
+    "data": "13. Key References"
+  },
+  {
+    "type": "paragraph",
+    "data": "Takeshige, K., Baba, M., Tsuboi, S., Noda, T. and Ohsumi, Y. (1992). Autophagy in yeast demonstrated with proteinase- deficient mutants and conditions for its induction. Journal of Cell Biology 119, 301-311 "
+  },
+  {
+    "type": "paragraph",
+    "data": "Tsukada, M. and Ohsumi, Y. (1993). Isolation and characterization of autophagy-defective mutants of Saccharomyces cervisiae. FEBS Letters 333, 169-174 Mizushima, N., Noda, T., Yoshimori, T., Tanaka, Y., Ishii, T., George, M.D., Klionsky, D.J., Ohsumi, M. and Ohsumi, Y. (1998). A protein conjugation system essential for autophagy. Nature 395, 395-398"
+  },
+  {
+    "type": "paragraph",
+    "data": "Ichimura, Y., Kirisako T., Takao, T., Satomi, Y., Shimonishi, Y., Ishihara, N., Mizushima, N., Tanida, I., Kominami, E., Ohsumi, M., Noda, T. and Ohsumi, Y. (2000). A ubiquitin-like system mediates protein lipidation. Nature, 408, 488-492"
+  },
+  {
+    "type": "paragraph",
+    "data": "He L., Zhang J., Zhao J., Ma N., Kim S.W., Qiao S., Ma X. Autophagy: The Last Defense against Cellular Nutritional Stress. Adv. Nutr. 2018;9:493–504."
+  },
+  {
+    "type": "title",
+    "data": "14. Testimonials"
+  },
+  {
+    "type": "paragraph",
+    "data": "Prof Dr. John Paterson— This is the best wellness app in the market."
+  },
+  {
+    "type": "paragraph",
+    "data": "Dr. Arthur Adams— So simple to follow. A can’t fail solution to healthy living that will change the way we eat our food for good."
+  },
+  {
+    "type": "paragraph",
+    "data": "Prof. Dr. Murat Bas— Scientific knowledge and technology are utilized to solve obesity and overweight epidemic for good."
+  }
 ]
