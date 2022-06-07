@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ubamm/webpage.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(
@@ -62,14 +62,7 @@ class _MyAppState extends State<MyApp> {
                                   padding: const EdgeInsets.only(left: 15.0, right: 15, top: 10, bottom: 5),
                                   child: GestureDetector(
                                     onTap: () {
-                                      dataList[index]['type'] == 'link'
-                                          ? Navigator.push(
-                                              context,
-                                              MaterialPageRoute(
-                                                builder: (context) => const WebPage(),
-                                              ),
-                                            )
-                                          : null;
+                                      dataList[index]['type'] == 'link' ? _launchUrl(dataList[index]['data']) : null;
                                     },
                                     child: Text(
                                       dataList[index]['data'],
@@ -82,28 +75,11 @@ class _MyAppState extends State<MyApp> {
                                                     ? Colors.blue
                                                     : null,
                                         fontWeight: dataList[index]['type'] == 'title' ? FontWeight.bold : null,
-                                        fontSize: dataList[index]['type'] == 'title'
-                                            ? 19
-                                            : dataList[index]['type'] == 'paragraph'
-                                                ? 19
-                                                : dataList[index]['type'] == 'link'
-                                                    ? 19
-                                                    : null,
+                                        fontSize: 19,
                                       ),
                                     ),
                                   ),
                                 ),
-                          /*GestureDetector(
-                            onTap: () {
-                              dataList[index]['type'] == 'link'
-                                  ? Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                        builder: (context) => const WebPage(),
-                                      ))
-                                  : null;
-                            },
-                          )*/
                         ],
                       );
                     },
@@ -116,5 +92,9 @@ class _MyAppState extends State<MyApp> {
         ],
       ),
     );
+  }
+
+  void _launchUrl(String URL) async {
+    if (!await launchUrl(Uri.parse(URL))) throw 'Could not launch $URL';
   }
 }

@@ -16,6 +16,14 @@
         "data": "2. What is Wellness and how to be well? "
     },
     {
+        "type": "link",
+        "data": "https://www.youtube.com/watch?v=Hqs1WzTwBEU&feature=youtu.be"
+    },
+    {
+        "type": "link",
+        "data": "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
+    },
+    {
         "type": "paragraph",
         "data": "Wellness is more than being free from illness. Wellness is a way of living by being aware of making right choices toward a healthy and fulfilling life."
     },
@@ -91,6 +99,7 @@
         "type": "paragraph",
         "data": "1. The step count module in the settings page pulls the information from your mobile phone and displays it to make you conscious about exercising."
     },
+
     {
         "type": "paragraph",
         "data": "2. The chew count module on the main screen slows you down and makes you conscious about your eating speed. Hence, you consume less calories; however, your body and brain absorbs more energy by chewing more."
@@ -142,14 +151,6 @@
     {
         "type": "title",
         "data": "13. Key References"
-    },
-    {
-        "type": "link",
-        "data": "https://www.nobelprize.org/prizes/medicine/2016/press-release/"
-    },
-    {
-        "type": "link",
-        "data": "https://www.youtube.com/watch?v=Hqs1WzTwBEU&feature=youtu.be"
     },
     {
         "type": "paragraph",
